@@ -29,6 +29,6 @@ allprojects {
 dependencies {
   api 'com.facebook.react:react-native:+'
   api files('libs/libammsdk.jar')
-  compile group: 'androidx.annotation', name: 'annotation', version: '1.1.0'
+  implementation 'androidx.annotation:annotation:+'
   // compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 }
